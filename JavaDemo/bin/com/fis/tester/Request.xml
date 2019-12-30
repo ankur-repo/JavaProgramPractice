@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NGProcessAlertTriggerMtvnSvcReq
+	xmlns="mtvnNGSvcReq" xmlns:ns2="mtvnNGProcessAlertTriggerReqData">
+	<MtvnSvcVer>2.0</MtvnSvcVer>
+	<MsgUUID>047ba47f-3a05-4483-9c09-2efb02a722dc</MsgUUID>
+	<PrcsParms>
+		<SrcID>PGP</SrcID>
+	</PrcsParms>
+	<Svc>
+		<SvcParms>
+			<ApplID>NG</ApplID>
+			<SvcID>NG_SVC3</SvcID>
+			<SvcVer>2.0</SvcVer>
+			<RqstUUID>047ba47f-3a05-4483-9c09-2efb02a722dc</RqstUUID>
+			<RoutingID>10X</RoutingID>
+		</SvcParms>
+		<Security>
+			<NoAuth>Y</NoAuth>
+		</Security>
+		<MsgData>
+			<ns2:ProcessAlertTriggerRequest>
+				<ns2:PrcsGrpNbr>10X</ns2:PrcsGrpNbr>
+				<ns2:Cust>
+					<ns2:CustType>NCUST</ns2:CustType>
+				</ns2:Cust>
+				<ns2:OrigAppl>
+					<ns2:OrigApplCde>GPAY</ns2:OrigApplCde>
+					<ns2:OrigAppID>GPAY</ns2:OrigAppID>
+				</ns2:OrigAppl>
+				<ns2:ProfileID>16006</ns2:ProfileID>
+				<ns2:BypassSubscriptionCheck>Y</ns2:BypassSubscriptionCheck>
+				<ns2:VarList>
+					<ns2:Var>
+						<ns2:VarID>GPAY_CUST_NME</ns2:VarID>
+						<ns2:Value1>RAGHWINDER SINGH</ns2:Value1>
+					</ns2:Var>
+					<ns2:Var>
+						<ns2:VarID>GPAY_FI_SUPPORT_TEAM</ns2:VarID>
+						<ns2:Value1>State Bank of India (California)</ns2:Value1>
+					</ns2:Var>
+					<ns2:Var>
+						<ns2:VarID>GPAY_AUTHTICATION_CODE</ns2:VarID>
+						<ns2:Value1>662248</ns2:Value1>
+					</ns2:Var>
+				</ns2:VarList>
+				<ns2:DeliveryMethodList>
+					<ns2:DeliveryMethod>
+						<ns2:DeliveryMethodID>EM1</ns2:DeliveryMethodID>
+						<ns2:DeliveryMethodValue>raghwinder@gmail.com
+						</ns2:DeliveryMethodValue>
+					</ns2:DeliveryMethod>
+				</ns2:DeliveryMethodList>
+			</ns2:ProcessAlertTriggerRequest>
+		</MsgData>
+	</Svc>
+</NGProcessAlertTriggerMtvnSvcReq>

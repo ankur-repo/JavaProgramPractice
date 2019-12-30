@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CEOutboundSSOReqData
+	xmlns="mtvnCEOutboundSSOReqData">
+	<SSOKey>af0d9f70-6559-4c37-a708-bb9362a5ca9a</SSOKey>
+	<CustUniqueID>26182</CustUniqueID>
+	<Dest>GRSMobile_Remittances</Dest>
+	<FirstTime>false</FirstTime>
+	<DestActyQualifier>
+		<DestQualifier>
+			<QualifierNme>primaryPhoneType</QualifierNme>
+			<QualifierVal>CEL</QualifierVal>
+		</DestQualifier>
+		<DestQualifier>
+			<QualifierNme>FIFID</QualifierNme>
+			<QualifierVal>10x</QualifierVal>
+		</DestQualifier>
+		<DestQualifier>
+			<QualifierNme>userID</QualifierNme>
+			<QualifierVal></QualifierVal>
+		</DestQualifier>
+		<DestQualifier>
+			<QualifierNme>emulation</QualifierNme>
+			<QualifierVal>false</QualifierVal>
+		</DestQualifier>
+		<DestQualifier>
+			<QualifierNme>currency</QualifierNme>
+			<QualifierVal>USD</QualifierVal>
+		</DestQualifier>
+	</DestActyQualifier>
+	<CustInfo>
+		<CustTyp>
+			<Individual>
+				<FirstNme>SUDHIR</FirstNme>
+				<MidNme>RAMKISHAN</MidNme>
+				<LstNme>AGARWAL</LstNme>
+			</Individual>
+		</CustTyp>
+		<CustAddr>
+			<Addr1>134 LURENE DR</Addr1>
+			<City>FREMONT</City>
+			<State>CA</State>
+			<PostalCde>94539 6214</PostalCde>
+			<Country>USA</Country>
+		</CustAddr>
+		<EMailLst>
+			<EMail>
+				<EMailId>SUDHIR72004@YAHOO.COM</EMailId>
+			</EMail>
+		</EMailLst>
+		<PriPhoneNbr>6502183540</PriPhoneNbr>
+	</CustInfo>
+	<AcctInfo>
+		<Acct>
+			<AcctNum>000735300647</AcctNum>
+			<AcctTyp>checking</AcctTyp>
+			<AcctSubTyp>110</AcctSubTyp>
+			<AcctNickNme>Easy Checking *0647</AcctNickNme>
+		</Acct>
+	</AcctInfo>
+</CEOutboundSSOReqData>

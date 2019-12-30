@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NGProcessAlertTriggerMtvnSvcRes
+	xmlns="mtvnNGSvcRes" xmlns:ns2="mtvnProcessAlertTriggerResData">
+	<MtvnSvcVer>2.0</MtvnSvcVer>
+	<MsgUUID>047ba47f-3a05-4483-9c09-2efb02a722dc</MsgUUID>
+	<Svc>
+		<SvcParms>
+			<ApplID>NG</ApplID>
+			<SvcID>NG_SVC3</SvcID>
+			<SvcVer>2.0</SvcVer>
+			<RqstUUID>047ba47f-3a05-4483-9c09-2efb02a722dc</RqstUUID>
+		</SvcParms>
+		<MsgData>
+			<ns2:ProcessAlertTriggerResponse>
+				<ns2:PrcsGrpNbr>10X</ns2:PrcsGrpNbr>
+				<ns2:ProfileID>16006</ns2:ProfileID>
+			</ns2:ProcessAlertTriggerResponse>
+		</MsgData>
+		<ErrCde>0000</ErrCde>
+		<ErrMsg>Success</ErrMsg>
+	</Svc>
+	<ErrCde>0</ErrCde>
+	<ErrMsg>Success</ErrMsg>
+</NGProcessAlertTriggerMtvnSvcRes>
